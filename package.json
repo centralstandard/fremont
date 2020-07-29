@@ -1,0 +1,38 @@
+{
+  "name": "fremont",
+  "version": "0.0.1",
+  "description": "A monospace typeface for writing and reading",
+  "homepage": "https://github.com/centralstandard/fremont#readme",
+  "license": "OFL-1.1",
+  "style": "styles/index.css",
+  "files": [
+    "dist",
+    "styles"
+  ],
+  "keywords": [
+    "font",
+    "sans-serif",
+    "ttf",
+    "woff",
+    "woff2"
+  ],
+  "author": {
+    "email": "jeremy@centralstandard.com",
+    "name": "Jeremy Boles",
+    "url": "https://jeremyboles.com/"
+  },
+  "bugs": {
+    "url": "https://github.com/centralstandard/fremont/issues"
+  },
+  "devDependencies": {
+    "font-constructor": "^0.0.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/centralstandard/fremont.git"
+  },
+  "scripts": {
+    "build": "font-constructor --destination ./dist ./src",
+    "test": "font-constructor --check --destination ./dist ./src"
+  }
+}

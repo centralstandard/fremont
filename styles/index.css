@@ -1,0 +1,11 @@
+:root {
+  --park-central: 'Fremont', sans-serif;
+}
+
+@font-face {
+  font-family: 'Fremont';
+  font-stretch: 100%;
+  font-style: normal;
+  font-weight: 400;
+  src: url('../dist/ParkCentral.woff2') format('woff2-variations');
+}
